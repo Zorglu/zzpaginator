@@ -1,17 +1,15 @@
 ZZPaginator
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/zozor/zzpaginator.svg?style=flat-square)](https://packagist.org/packages/zozor/zzpaginator)
-[![Total Downloads](https://img.shields.io/packagist/dt/zozor/zzpaginator.svg?style=flat-square)](https://img.shields.io/packagist/dt/zozor/zzpaginator.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/zozor/paginator.svg?style=flat-square)](https://packagist.org/packages/zozor/paginator)
+[![Total Downloads](https://img.shields.io/packagist/dt/zozor/paginator.svg?style=flat-square)](https://img.shields.io/packagist/dt/zozor/paginator.svg)
 =============
 
 
 A simple paginator for PHP ^8.3 for use with javascript fetch.
-La page html sans PHP devant afficher les lignes extraites d'une base de données fera une requête en javascript
-avec fetch() vers une page en PHP qui retournera les lignes lues ainsi que des données de pagination.
+The HTML page without PHP, which will display rows extracted from a database, will make a request in JavaScript using `fetch()` to a PHP page that will return the retrieved rows along with pagination data.
 
-La page PHP qui ira rechercher les lignes dans la base de données pourra initialiser la class zozor\Paginator pour
-créer une outil de pagination. Le tout pourra être retourner au Javascript sous la forme de json.
+The PHP page, which will fetch the rows from the database, can initialize the `zozor\Paginator` class to create a pagination tool. All of this can be returned to JavaScript in JSON format.
 
-## Exemple d'utilisation
+## Example of Usage
 ```php
 <?php  declare (strict_types=1);
 require __DIR__ . '/vendor/autoload.php';
