@@ -1,5 +1,8 @@
 ZZPaginator
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/zozor/zzpaginator.svg?style=flat-square)](https://packagist.org/packages/zozor/zzpaginator)
+[![Total Downloads](https://img.shields.io/packagist/dt/zozor/zzpaginator.svg?style=flat-square)](https://img.shields.io/packagist/dt/zozor/zzpaginator.svg)
 =============
+
 
 A simple paginator for PHP ^8.3 for use with javascript fetch.
 La page html sans PHP devant afficher les lignes extraites d'une base de données fera une requête en javascript
@@ -28,5 +31,5 @@ print new Paginator($nb_line, $per_page, $max_show, $current_page);
 
 ```
 
-Inspired by (https://github.com/jasongrimes/php-paginator/blob/master/README.md?plain=1)(jasongrimes/php-paginator)
+Inspired by [jasongrimes/php-paginator](https://github.com/jasongrimes/php-paginator/blob/master/README.md?plain=1)
 
