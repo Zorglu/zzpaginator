@@ -1,0 +1,8 @@
+/composer.lock
+/vendor
+/phpdoc/cache
+CHANGELOG.md
+/test*
+/get_pagination.php
+phpdoc.xml
+

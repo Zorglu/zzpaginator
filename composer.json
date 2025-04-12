@@ -1,0 +1,29 @@
+{
+    "name": "zozor/paginator",
+    "description": "Pagination system",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "zozor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zzengine",
+            "email": "zzengine01@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "zzengine01@gmail.com",
+        "issues": "https://github.com/Zorglu/zzpaginator/issues",
+        "source": "https://github.com/Zorglu/zzpaginator",
+        "docs": "https://github.com/Zorglu/zzpaginator"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
